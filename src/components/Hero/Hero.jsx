@@ -1,8 +1,17 @@
-import React from 'react'
+import React,{useState} from 'react';
+import {Redirect} from "react-router-dom";
 import './Hero.css';
 import Header from '../Header/Header';
+import hero_image from "../../assets/hero_image.jpg";
+import hero_image_back from "../../assets/hero_image_back.png";
+import Heart from "../../assets/heart.png";
+import Calories from "../../assets/calories.png"
 
 const Hero = () => {
+  const [access,giveAccess] = useState(false);
+  if(access){
+    <Redirect to="https://github.com/Sarathkumardunga/Real-Chat.git" />
+  }
   return (
     <div className="hero">
         <div className="left-h">
@@ -49,11 +58,32 @@ const Hero = () => {
             </div>
 {/*     Buttons   */}
             <div className="hero-buttons">
-                <buttons className='btn'>Get Stated</buttons>
+                <buttons className='btn' onClick={()=>giveAccess(true)}>Get Stated</buttons>
                 <buttons className='btn'>Learn More</buttons>
             </div>
         </div>
-        <div className="right-h">Right side</div>
+
+        <div className="right-h">
+            <button className="btn">Join now</button>
+
+            <div className="heart-rate">
+                <img src={Heart} alt="Heart" />
+                <span>Heart Rate</span>
+                <span>112 Bpm</span>
+            </div>
+
+            {/* Hero images */}
+            <img src={hero_image} alt="" className='hero-image' />
+            <img src={hero_image_back} alt="" className='hero-image-back' />
+            {/* Calories */}
+            <div className="calories">
+                <img src={Calories} alt="" />
+                <div>
+                    <span> Calories Burned</span>
+                    <span>330 kcal</span>
+                </div>
+            </div> 
+        </div>
     </div>
   )
 }
