@@ -19,7 +19,7 @@ const Programs = () => {
                    <span>{program.heading}</span>
                    <span>{program.details}</span> 
                    <div className="join-now">
-                    <span>Join Now</span>
+                    <a href={program.link} target='_blank'><span id="Read">Read More</span></a>
                     <img src={RightArrow} alt="" /></div>
                 </div>
             ))} 

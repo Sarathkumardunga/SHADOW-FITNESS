@@ -20,10 +20,14 @@
     gap: 4rem;
 }
 
-.social-media>img{
+.social-media>a>img{
     width: 2rem;
     height: 2rem;
     cursor: pointer;
+}
+
+.social-media>a>img:hover{
+    background: rgb(177, 121, 23);
 }
 
 .logo-f>img{

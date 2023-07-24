@@ -53,6 +53,14 @@
     gap:2rem;
 }
 
+.join-now>a{
+    text-decoration: none;
+}
+
+.join-now>a>span{
+    color:white;
+}
+
 .join-now >img{
     width: 1rem;
 }
