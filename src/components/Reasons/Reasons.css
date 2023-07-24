@@ -66,12 +66,14 @@
 .datails-r{
     display: flex;
     flex-direction: column;
+    gap:2rem;
 }
 
 .details-r>div{
     display:flex;
     font-size: 1.2rem;
     gap: 1rem;
+    align-items: center;
 }
 
 .details-r>div>img{
