@@ -86,3 +86,19 @@
     color: var(--orange);
 }
 
+@media screen and (max-width: 768px){
+    .programs-header{
+        position: relative;
+        top: -1rem;
+    }
+
+    .plans{
+        flex-direction: column;
+        position: relative;
+        top: -1rem;
+    }
+
+    .plans>:nth-child(2){
+        transform: none;
+    }
+}
