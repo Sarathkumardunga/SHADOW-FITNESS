@@ -38,7 +38,7 @@
 
 .left-r>:nth-child(4){
     margin-top: 0.8rem;
-    width: 10.2rem;
+    width: 14.2rem;
     grid-row: 2;
     grid-column: 3/4;
     margin-left: -0.36rem;
@@ -61,4 +61,30 @@
     color: white;
     font-size: 3rem;
     font-weight: bold;
+}
+
+.datails-r{
+    display: flex;
+    flex-direction: column;
+}
+
+.details-r>div{
+    display:flex;
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+
+.details-r>div>img{
+    width:2rem;
+    height:2rem;
+    padding: 0.2rem 0;
+}
+
+.partners{
+    display:flex;
+    gap: 1rem;
+}
+
+.partners>img{
+    width: 2.5rem;
 }
