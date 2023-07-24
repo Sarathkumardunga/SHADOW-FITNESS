@@ -21,6 +21,8 @@ const Footer = () => {
                 <img src={Logo} alt="" />
             </div>
         </div>
+        
+        <div className="blur f-blur-1"></div>
     </div>
   )
 }

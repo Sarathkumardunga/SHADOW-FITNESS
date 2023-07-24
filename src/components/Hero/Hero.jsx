@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import {Redirect} from "react-router-dom";
 import './Hero.css';
 import Header from '../Header/Header';
 import hero_image from "../../assets/hero_image.jpg";
@@ -7,13 +6,12 @@ import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png"
 
-const Hero = () => {
-  const [access,giveAccess] = useState(false);
-  if(access){
-    <Redirect to="https://github.com/Sarathkumardunga/Real-Chat.git" />
-  }
+const Hero = () => { 
   return (
     <div className="hero">
+        <div className="blur hero-blur">
+    
+        </div>
         <div className="left-h">
             <Header/>
 {/*   The best add section */}
@@ -58,7 +56,7 @@ const Hero = () => {
             </div>
 {/*     Buttons   */}
             <div className="hero-buttons">
-                <buttons className='btn' onClick={()=>giveAccess(true)}>Get Stated</buttons>
+                <buttons className='btn'>Get Stated</buttons>
                 <buttons className='btn'>Learn More</buttons>
             </div>
         </div>
