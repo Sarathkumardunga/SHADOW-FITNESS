@@ -145,11 +145,12 @@
 
 .hero-image{
     position:absolute;
-    top:11rem;
+    top:22rem;
     right: 18rem;
     bottom: 30rem;
-    width:68%;
-    border-radius:50px;
+    width:100%;
+    transform: scale(1.46);
+    border-radius:20px;
 }
 
 .hero-image-back{
@@ -197,3 +198,92 @@
     left:0;
 }
 
+@media screen and (max-width: 768px){
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero-blur{
+        width: 14rem;
+    }
+
+    .the-best-ad{
+        margin-top: 0;
+        font-size: small;
+        align-self: center;
+        transform: scale(0.8);
+    }
+
+    .hero-text{
+        font-size: 27.7px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-text>div:nth-of-type(3){
+        font-size: small;
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .hero-buttons{
+        justify-content: center;
+    }
+    
+    .figures{
+        gap: 1.4rem;
+    }
+
+    .figures > div > span:nth-of-type(1){
+        font-size: 30px;
+    }
+    
+    .figures > div > span:nth-of-type(2){
+        font-size: 13px;
+    }
+
+    .right-h{
+        position: relative;
+        background:none;
+    }
+
+    .heart-rate{
+        left: 0.7rem;
+        top: 1.4rem;
+        z-index: 2;
+        transform: scale(0.85);
+    }
+
+    .calories{
+        position: relative;
+        top: 15.6rem;
+        left: 3.2rem;
+
+    }
+
+    .calories > img{
+        width: 2rem;
+    }
+
+    .calories > div> :nth-child(2){
+        font-size: 1rem;
+    }
+
+    .hero-image{
+        position: relative;
+        width: 12rem;
+        left: 4rem;
+        top:13rem;
+        align-self: center;
+        transform: scale(1.6);
+        border-radius: 5px;
+    }
+    
+    .hero-image-back{
+        width: 15rem;
+        left: 3rem;
+        top: 0rem;
+    }
+
+}
