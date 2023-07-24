@@ -11,7 +11,7 @@ const Header = () => {
             <li>Programs</li>
             <li>Why us</li>
             <li>Plans</li>
-            <li>Testimonials</li>
+            <li>Join us</li>
         </ul>
     </div>
   )
