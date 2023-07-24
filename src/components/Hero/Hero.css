@@ -68,7 +68,7 @@
 /* Styling of figures */
 .figures{
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .figures>div{
@@ -91,6 +91,7 @@
     display:flex;
     gap: 1rem;
     font-weight: normal;
+    margin-top: -0.8rem;
 }
 
 .hero-buttons>:nth-child(1){
