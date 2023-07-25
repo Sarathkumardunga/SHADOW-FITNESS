@@ -4,11 +4,11 @@
 
  **TECHSTACK** used....    
                           
-                          (o)   HTML, CSS
+                          (o)   HTML, CSS, Javascript
                           (o)   ReactJs (used various react libraries for various purooses)
                           (o)   EmailJs (for delivery of email service to the Admin)
                           (o)   Get Started -> Redirects us to the Chat App (Real CHAT) 
-                                                        [A FULLstack chat applicatio where
+                                                        [A FULLstack chat application where
                                                          the user can chat with the community for 1 week
                           (o)   A ChatBase CHATBot is also integrated which helps you answer your 
                                 queries specific to the website.
