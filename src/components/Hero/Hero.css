@@ -23,7 +23,7 @@
     background-color: #363d42;
     border-radius: 4rem;
     width: fit-content;
-    padding: 20px 13px;
+    padding: 18px 13px;
     text-transform: uppercase;
     color:white;
     position: relative;
@@ -49,12 +49,13 @@
 .hero-text{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.2rem;
     text-transform: uppercase;
     font-size: 4.5rem;
     font-weight: bold;
     color: white;
     text-overflow: inherit;
+    z-index: 5;
 }
 
 .hero-text>div:nth-of-type(3){
@@ -63,6 +64,7 @@
     text-transform: none;
     letter-spacing:1px;
     width: 80%;
+    z-index: 5;
 }
 
 /* Styling of figures */
@@ -148,7 +150,7 @@ a{
 }
 
 .hero-image{
-    position:absolute;
+    position: relative;
     top:22rem;
     right: 18rem;
     bottom: 30rem;
@@ -161,8 +163,19 @@ a{
     position: absolute;
     top: 4rem;
     right: 20rem;
-    z-index: -1;
+    z-index: -4;
     width: 20rem;
+}
+
+#Jnow{
+    outline: auto;
+    outline-color: rgb(244, 205, 32);
+    outline-offset: -3px;
+    transition: 0.2s;
+}
+
+#Jnow:hover{
+    outline-offset: 5px;
 }
 
 .calories{
@@ -175,6 +188,7 @@ a{
     position: absolute;
     top:35rem;
     right: 48rem;
+    z-index: -3;
 }
 
 .calories>img{

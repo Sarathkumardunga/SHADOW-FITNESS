@@ -21,6 +21,7 @@
 .header-menu>li:hover{
     cursor: pointer;
     color: var(--orange);
+    transition: 0.3;
 }
 
 @media screen and (max-width: 768px){
@@ -44,6 +45,9 @@
         gap:1rem;
         background-color: var(--caloryCard);
         padding: 0.8rem;
+        outline: auto;
+        outline-style: inset;
+        outline-color: rgb(241, 153, 22);
     }
 
     #close-button{

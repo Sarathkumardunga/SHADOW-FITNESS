@@ -43,7 +43,7 @@ const Hero = () => {
 
                 <div>
                     <span>
-                        in here we help you to shape and build your ideal body and live up
+                        in here we help you to shape and build your <br/> ideal body and live up
                      your life to fullest
                     </span>
                 </div>
@@ -72,13 +72,13 @@ const Hero = () => {
             </div>
 {/*     Buttons   */}
             <div className="hero-buttons">
-                <a href="https://github.com/Sarathkumardunga/Real-Chat" target='_blank'><buttons className='btn' id="getStarted">Get Stated</buttons></a>
-                <a><buttons className='btn' id="learnMore">Learn More</buttons></a>
+                <a href="https://github.com/Sarathkumardunga/Real-Chat" target='_blank' rel="noreferrer"><buttons className='btn' id="getStarted">Get Stated</buttons></a>
+                <a href="https://debugg-dot.github.io/Shadow_fiitness/" target='_blank' rel="noreferrer"><buttons className='btn' id="learnMore">Learn More</buttons></a>
             </div>
         </div>
 
         <div className="right-h">
-            <button className="btn"><Link
+            <button className="btn" id="Jnow"><Link
                to="email"
                spy={true}
                smooth={true}

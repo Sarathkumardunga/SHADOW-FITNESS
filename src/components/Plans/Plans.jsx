@@ -3,6 +3,10 @@ import "./Plans.css";
 import { plansData } from '../../data/plansData';
 import whiteTick from "../../assets/whiteTick.png"
 
+const handleJoin=()=>{
+    window.alert(" Please provide your Email.\nWe will reach you soon..");
+}
+
 const Plans = () => {
   return (
     <div className="Plans-container">
@@ -37,7 +41,7 @@ const Plans = () => {
                     <div>
                         <span>See more benifits -{'>'}</span>
                     </div>
-                    <button className="btn">Join Now</button>
+                    <button className="btn" onClick={handleJoin}>Join Now</button>
                 </div>
             ))}
         </div>

@@ -28,6 +28,8 @@
 
 .social-media>a>img:hover{
     background: rgb(177, 121, 23);
+    transform: scale(1.2);
+    transition: 0.32s;
 }
 
 .logo-f>img{

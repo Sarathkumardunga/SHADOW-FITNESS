@@ -36,6 +36,17 @@
     gap: 3rem;
     background-color: gray;
     padding: 1rem 2rem;
+    outline: auto;
+    outline-style: inset;
+    outline-color: rgb(241, 153, 22);
+}
+
+.email-container:hover{
+    outline: auto;
+    outline-style: inset;
+    outline-color: rgb(241, 153, 22);
+    outline-offset: 8px;
+    transition: 0.3s;
 }
 
 .email-container>input{
