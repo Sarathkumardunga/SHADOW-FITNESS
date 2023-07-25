@@ -3,10 +3,15 @@ import './Header.css';
 import Logo from '../../assets/logo.png';
 import Bars from '../../assets/bars.png';
 import {Link} from "react-scroll";
+import close from "../../assets/close.jpeg";
 
 const Header = () => {
   const mobile = window.innerWidth<=768 ? true: false;
   const [menuOpened, setMenuOpened] = useState(false);
+
+  const handleHamburger = () => {
+    setMenuOpened((prevState) => !prevState); // Toggle the menuOpened state
+  };  
 
   return (
     <div className="header">
@@ -24,6 +29,15 @@ const Header = () => {
          >
           <img src={Bars} alt="" style={{width: '1.5rem', height: "1.5rem"}} /></div>) : (
           <ul className="header-menu">
+            {(mobile === true)? (<li>
+                <button
+                  className="close-button"
+                  id="close-button"
+                  onClick={() => setMenuOpened(false)}
+                >
+                  <img src={close} alt="Close" style={{ width: '1.5rem', height: "1.5rem" }} />
+                </button>
+              </li>) : (<></>)}
             <li>
               <Link
                to="home"

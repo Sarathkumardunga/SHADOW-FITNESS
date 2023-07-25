@@ -7,6 +7,7 @@ import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
 import {motion} from "framer-motion";
 import NumberCounter from "number-counter";
+import {Link} from "react-scroll";
 
 const Hero = () => { 
     //defining state of the transition
@@ -71,13 +72,17 @@ const Hero = () => {
             </div>
 {/*     Buttons   */}
             <div className="hero-buttons">
-                <buttons className='btn'>Get Stated</buttons>
-                <buttons className='btn'>Learn More</buttons>
+                <a href="https://github.com/Sarathkumardunga/Real-Chat" target='_blank'><buttons className='btn' id="getStarted">Get Stated</buttons></a>
+                <a><buttons className='btn' id="learnMore">Learn More</buttons></a>
             </div>
         </div>
 
         <div className="right-h">
-            <button className="btn">Join now</button>
+            <button className="btn"><Link
+               to="email"
+               spy={true}
+               smooth={true}
+              >Join Now</Link></button>
 
             <motion.div
              initial = {{right: '-1rem'}}

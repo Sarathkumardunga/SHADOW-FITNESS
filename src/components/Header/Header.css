@@ -41,7 +41,18 @@
 
     .header-menu{
         flex-direction: column;
-        background-color: var(--appColor);
-        padding: 1rem;
+        gap:1rem;
+        background-color: var(--caloryCard);
+        padding: 0.8rem;
+    }
+
+    #close-button{
+        position: fixed;
+        right:2.24rem;
+        z-index: 100;
+        top: 2.45rem;
+        border-radius: 5px;
+        opacity: 0.78;
+        transform: scale(0.9);
     }
 }

@@ -94,13 +94,17 @@
     margin-top: -0.8rem;
 }
 
-.hero-buttons>:nth-child(1){
+a{
+    text-decoration: none;
+}
+
+#getStarted{
     color:white;
     background-color: var(--orange);
     width: 8rem;
 }
 
-.hero-buttons>:nth-child(2){
+#learnMore{
     color:white;
     background-color: transparent;
     width: 8rem;
