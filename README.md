@@ -1,3 +1,43 @@
+**SHADOW -FITNESS** @ HOME section:
+----------------------------------
+![Home](https://github.com/Sarathkumardunga/SHADOW-FITNESS/assets/88503678/0a603e3f-e761-4f07-95c2-5376f73f4f37)
+
+ **TECHSTACK** used....    
+                          
+                          (o)   HTML, CSS
+                          (o)   ReactJs (used various react libraries for various purooses)
+                          (o)   EmailJs (for delivery of email service to the Admin)
+                          (o)   Get Started -> Redirects us to the Chat App (Real CHAT) 
+                                                        [A FULLstack chat applicatio where
+                                                         the user can chat with the community for 1 week
+                          (o)   A ChatBase CHATBot is also integrated which helps you answer your 
+                                queries specific to the website.
+
+ **SHADOW-FITNESS** : A website for  the best fitness club in town which offers a variety of programs and services to help you shape and build your ideal body. With over 800 trusted followers, 25 fitness programs, and 6 advisors, it is dedicated to helping us live our life to the fullest. It has different plans available, such as the Basic Plan, Premium Plan, and Pro Plan, each offering various benefits and features. Additionally, theya also provide consultations with coaches, access to a community, and even fitness merchandise. Whether we're looking for strength training, cardio training, or fat burning, they have programs tailored to your needs. Join them and bring the best of you!
+
+**chatBot**
+
+![chat bot snap](https://github.com/Sarathkumardunga/SHADOW-FITNESS/assets/88503678/1b13ef48-e99c-4203-9e81-87964d4ace7d)
+
+**Programs Section** 
+
+![programs](https://github.com/Sarathkumardunga/SHADOW-FITNESS/assets/88503678/049c45e8-399c-4e1b-864d-cacc90038794)
+
+**Why Us Section**
+
+![Why us](https://github.com/Sarathkumardunga/SHADOW-FITNESS/assets/88503678/f6f59303-0602-44ad-86fe-d0ca2ab0ed68)
+
+**Plans Section:**
+
+![Plans](https://github.com/Sarathkumardunga/SHADOW-FITNESS/assets/88503678/91018159-3a07-4ddf-af74-444dc9176dd5)
+
+**Contact Us**
+
+![Contact us](https://github.com/Sarathkumardunga/SHADOW-FITNESS/assets/88503678/4fcc5dcc-1181-480c-8dc6-285c3d0212c3)
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
